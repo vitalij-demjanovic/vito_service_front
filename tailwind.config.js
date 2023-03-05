@@ -23,6 +23,15 @@ module.exports = {
 			colors: {
 				primary: '#1b1b1b',
 			},
+			animation: {
+				wiggle: 'wiggle 1s ease-in-out ',
+			},
+			keyframes: {
+				wiggle: {
+					'0%': { transform: 'translateY(-50px)', opacity: '0' },
+					'100%': { transform: 'translateY(0)', opacity: '1' },
+				},
+			},
 		},
 	},
 	plugins: [],
